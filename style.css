@@ -1,0 +1,127 @@
+/* reset browser default styling */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input,
+button,
+select {
+    border: none;
+    outline: none;
+}
+button {
+    background-color: transparent;
+}
+svg,
+i {
+    pointer-events: none;
+}
+
+/* styling */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    background-color: #dfdfdf;
+}
+h1 {
+    color: #949494;
+}
+
+header,
+form,
+.alert,
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todos-container {
+    display: flex;
+    justify-content: center;
+}
+header,
+form {
+    min-height: 80px;
+}
+.input-btn,
+.todo-select {
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.todo-select-container {
+    margin-left: 1rem;
+    width: 10rem;
+}
+.todo-select {
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.empty-text {
+    margin: 0.5rem;
+}
+
+ul.todos-list {
+    width: 20rem;
+    list-style: none;
+}
+
+.input,
+.input-btn,
+.todo-container,
+.todo-select {
+    height: 2rem;
+}
+
+.input,
+.todo-container li {
+    padding: 0 0.5rem;
+}
+
+.input-btn,
+.todo-container button  {
+    cursor: pointer;
+    width: 2rem;
+    transition: all 0.3s ease;
+}
+
+.todo-container {
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    margin: 0.5rem;
+    transition: all 0.5s ease;
+}
+.todo-container li {
+    flex: 1;
+}
+.todo-container i {
+    pointer-events: none;
+}
+.todo-container button {
+    height: 100%;
+    background-color: #c7ffb1;
+}
+.todo-container button.delete-btn {
+    background-color: #ffc6c6;
+}
+.input-btn:hover,
+.todo-container button:hover {
+    color: white;
+    background-color: #575757;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    transform: translateY(5rem) rotateZ(20deg);
+    opacity: 0;
+}
