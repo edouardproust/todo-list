@@ -2,7 +2,7 @@
 
 A simple todo list application that allows you to save lists online (saved on browser). Coded with javascript.
 
-👉 [**Live demo**](http://phpstack-749317-2526875.cloudwaysapps.com/)
+👉 [**Live demo**](http://phpstack-856558-2958351.cloudwaysapps.com/)
 
 ![image](https://user-images.githubusercontent.com/45925914/176819995-be0f49f3-c787-474e-9cdd-5e0e0fb46562.png)
 
